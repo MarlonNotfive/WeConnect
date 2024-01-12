@@ -1,0 +1,122 @@
+body{
+    background-image: url("https://images.rawpixel.com/image_1000/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsX29mZmljZV8zMF9hbl9hYnN0cmFjdF92aXN1YWxpemF0aW9uX29mX2FfYmxvY2tjaGFpbl9uZV9jZDVjMGExZS1mMWUyLTQ1ZmUtYWI4MS0zMDMyN2QxZmUwYzhfMS5qcGc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#heroSection{
+}
+.section-container{
+    padding: 80px 0;
+    width: 80%;
+    margin: auto;
+}
+
+.banner{
+    height: 90vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 50px;
+}
+.left-side-banner{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.right-side-banner{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    
+}
+.banner .search-holder{
+    width: 350px;
+    margin-top: 10px;
+}
+.banner .search-holder input{
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.278);
+    width: 100%;
+    padding: 5px;
+    padding-left: 35px;
+    font-size: 14px;
+
+}
+.banner .search-holder i{
+    position: absolute;
+    padding: 5px 0 0 10px;
+    font-size: 18px;
+
+}
+.text-row-1,
+.text-row-2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-row-1 *,
+.text-row-2 *{
+    margin: 0;
+    font-weight: bold;
+    color: #f2d20a;
+}
+
+.search-holder input[type="text"]{
+    border: 2px solid #ffd700;
+    color: #f2d20a;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.search-holder i {
+    color: #f2d20a;
+    padding: 5px;
+}
+
+/* .text-row-1 h2,
+.text-row-2 h2{
+    text-shadow: 2px 2px 2px blue;
+} */
+
+.text-row-1 p,
+.text-row-2 p{
+    text-shadow: 2px 2px 2px black;
+    font-size: 24px;
+}
+
+
+
+.blob-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+.blob{
+    margin: auto auto auto auto;
+    height: 70%;
+    width: 70%;
+    background-color: red;
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+    background-image: url("https://i.insider.com/62d97428d0011000190fcd95?width=1136&format=jpeg");
+    background-size: cover;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.input-group-text{
+    width: 120px;
+}

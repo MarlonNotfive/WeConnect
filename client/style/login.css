@@ -1,0 +1,151 @@
+.holder{
+    display: flex;
+    overflow: hidden;
+}
+.wallpaper{
+    width: 50%;
+    height: 100vh;
+    background-image: url("https://media1.giphy.com/media/U4FkC2VqpeNRHjTDQ5/giphy.gif?cid=ecf05e47mz01w4gm91i06ivuyunm14mcqaxxm8d9i0lt2s86&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    backdrop-filter: blur(20px);
+    transition: background-size 1s ease-in-out;
+    
+}
+.wallpaper:hover{
+    background-size: 200% 200%;
+}
+
+.login-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    gap: 10px;
+}
+form{
+    width: 90%;
+    max-width: 450px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 30px 0 20px 0;
+}
+form .logo{
+    margin-bottom: 20px;
+}
+#header-icon{
+    margin-bottom: 10px;
+}
+.input-holder{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+label{
+    width: 70%;
+}
+.input-holder i{
+    font-size: 24px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.input-holder input{
+    padding: 0 10px 0 42px;
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.btn-login{
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    background: rgb(131, 247, 131);
+    height: 40px;
+    cursor: pointer;;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+.btn-login:hover{
+    background: rgb(84, 155, 84);
+    color: white;
+}
+.icon-group {
+    position: absolute;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.icon-group p{
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+.google-signin-btn {
+    display: flex;
+    width: 80%;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px black;
+    align-items: center;
+    justify-content: center;
+    color: rgb(124, 124, 124);
+    height: 40px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+.google-signin-btn p{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+.google-signin-btn img{
+    width: 25px;
+}
+.google-signin-btn:hover {
+    background-color: #7aaaf8; /* Change to your desired hover color */
+    color: #fff; /* Change text color on hover if needed */
+}
+.seperator{
+    width: 80%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.seperator .line{
+    width: 100%;
+    height: 2px;
+    max-width: 200px;
+    background-color: rgb(189, 189, 189);
+}
+.seperator p{
+    color: rgb(161, 161, 161);
+    text-align: center;
+    margin-bottom: 0;
+    width: 100%;
+    font-size: 10px;
+}
+.accordion-body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.alert{
+    max-width: 80%;
+}

@@ -1,0 +1,37 @@
+#missionVision {
+    width: 100%;
+    background-color: #ff0053;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.seperator h1{
+    color: white;
+    padding-top: 25px;
+}
+.missionVision-holder{
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+}
+.mission-Title,
+.vision-Title{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.missionVision-holder p{
+    width: 80%;
+    margin: auto;
+}
+.st0{
+    fill: #ffd700;
+}
+#missionLogo{
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,36 @@
+footer{
+    background-color: black;
+    height: fit-content;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    gap: 15px;
+}
+.footer-logo{
+    width: 350px;
+
+}
+.quickLink,
+.contact-info{
+    display: flex;
+    gap: 10px;
+    width: 350px;
+    flex-direction: column;
+    color: white;
+}
+.contact-info{
+    width: auto;
+}
+
+.quickLink h2,
+.contact-info h2{
+    color: #0E1F82;
+    padding:  0 0 10px 0;
+    font-size: 18px;
+}
+.quickLink a,
+.contact-info p{
+    color: grey;
+    font-size: 14px;
+    text-decoration: none;
+}

@@ -1,0 +1,35 @@
+#loggedInAcc{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 5px black;
+    background-color: rgba(255, 255, 255, 0.692);
+    cursor: pointer;
+}
+#loggedInAcc:hover{
+    background-color: rgb(214, 212, 212);
+}
+
+#loggedInAcc p{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#online{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: lime;
+}
+
+#power {
+    font-weight: bold;
+    color: red;
+    font-size: 18px;
+}

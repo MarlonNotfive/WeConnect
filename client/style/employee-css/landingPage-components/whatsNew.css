@@ -1,0 +1,111 @@
+#whatsNew {
+    width: 100%;
+    background-color: #00bbc3;
+    padding: 40px;
+    padding-bottom: 70px;
+} 
+.whatsNew-title h2{
+    font-size: 40px;
+    color: #ffd700;
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+}
+#carouselExampleIndicators{
+    border-radius: 15px;
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+.carousel-item-card{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding-bottom: 50px;
+    transition: all 500ms ease-in-out;
+}
+.carousel-item-card p,
+.carousel-item-card h1 {
+    color: white;
+}
+
+.carousel-item-card:hover{
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
+.carousel-item-card a{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    transition: all 500ms ease-in-out;
+}
+
+.carousel-item-card a:hover{
+    background-color: white;
+    color: black;
+}
+
+.custom-itemHolder{
+    height: 80vh;
+    position: relative;
+    display: flex;
+}
+.itemHolder-imgHolder{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+}
+.img-content{
+    width: 90%;
+    height: 90%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.itemHolder-imgHolder img{
+    width: 100%;
+    border: solid red;
+
+}
+.itemHolder-textHolder{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+}
+.itemHolder-textHolder p, 
+.itemHolder-textHolder h2{
+    width: 80%;
+    position: relative;
+    height: fit-content;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.itemHolder-textHolder img{
+    position: absolute;
+    width: 110px;
+    top: -100px;
+    left: -60px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}

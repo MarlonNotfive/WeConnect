@@ -1,0 +1,83 @@
+.backBTN{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    color: black;
+    text-decoration: none;
+    transition: scale 500ms ease-in-out;
+}
+.backBTN:hover{
+    scale: 1.1;
+}
+form {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+}
+form img{
+    width: 80px;
+}
+.form-row{
+    display: flex;
+    gap: 10px;
+}
+
+.input-holder {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.button-holder {
+    text-align: center;
+}
+.button-holder a{
+    font-size: 12px;
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-holder button,
+.button-holder a{
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #28a745;
+    font-size: 12px;
+    width: 110px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+.button-holder button:hover,
+.button-holder a:hover{
+    background-color: WHITE;
+    color: #28a745;
+    border: 1px solid #28a745;
+
+}
+.button-holder {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+

@@ -1,0 +1,14 @@
+@keyframes fadeIn {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animation-fadeIn {
+    animation: fadeIn 500ms ease-in-out;
+}

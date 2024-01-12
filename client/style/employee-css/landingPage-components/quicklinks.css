@@ -1,0 +1,68 @@
+#quicklinks {
+    width: 100%;
+    background-color: #ffd700;
+    padding: 40px;
+} 
+.quicklinks-title{
+    margin-bottom: 20px;
+}
+.quicklinks-title h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #ff0053;
+    text-align: center;
+}
+.button-holder{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.button-holder button{
+    width: 300px;
+    aspect-ratio: 1;
+    border-radius: 15px;
+}
+.form-card {
+    width: 100%;
+    height: 50px;
+    padding: 0 15px;
+    background-color: rgb(179, 234, 255);
+    box-shadow: 0 0 3px black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-card h5 {
+    margin-bottom: 0;
+}
+.form-card a {
+    border-radius: 10px;
+}
+.button-holder i{
+    font-size: 100px;
+    width: 100%;
+    height: 60%;
+    color: #ff0053;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.button-holder p{
+    
+    height: 40%;
+    color: #ff0053;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.form-card {
+    margin-bottom: 10px;
+}
+
+/* calendar design */

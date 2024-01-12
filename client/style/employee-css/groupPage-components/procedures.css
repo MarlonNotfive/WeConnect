@@ -1,0 +1,35 @@
+#procedures{
+    border: solid rebeccapurple;
+    width: 100%;
+    background-color: #00d8ab;
+    padding: 100px 0 100px 0;
+    min-height: fit-content;
+}
+.procedure-holder{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+.procedure-card{
+    border: solid black;
+    position: relative;
+    width: 50%;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.84);
+    padding: 20px 10px 10px 10px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 2px blue;
+}
+.procedure-card-footer{
+    width: fit-content;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0
+}
+.procedure-card-footer a{
+    text-decoration: none;
+}

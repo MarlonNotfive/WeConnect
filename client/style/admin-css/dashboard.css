@@ -1,0 +1,112 @@
+.analysisHolder {
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+}
+.firstRowColumn{
+    margin: auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    height: 110px;
+    background-color: rgb(240, 255, 255);
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 0px blue;
+    padding: 10px;
+}
+.card-title {
+    font-weight: bold;
+    position: relative;
+    color: rgb(117, 117, 117);
+    top: 5px;
+    left: 5px;
+}
+.card-logo{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: white;
+    background-color: rgb(23, 23, 80);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+.card-data{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.chart-holder{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    width: 60%;
+    height: 400px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.chart-holder #myChart{
+    height: 100%;
+    aspect-ratio: 1;
+}
+.account-statistic-holder{
+    display: flex;
+    justify-content: space-around;
+}
+.forApproval-holder{
+    width: 100%;
+    height: 300px;
+    overflow: auto;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+}
+.forApproval-title{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.forApproval-holder table thead{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.table-holder{
+    width: 45%;
+}
+.LogFrequency-holder{
+    width: 45%;
+}
+.logFrequency-title{
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+.logFrequency-table{
+    width: 100%;
+    height: 300px;
+    box-shadow: 2px 2px 5px black;
+    overflow: auto;
+    border-radius: 15px;
+}
+.table-holder, 
+.LogFrequency-holder{
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 5px;
+}
+
+

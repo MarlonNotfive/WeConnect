@@ -1,0 +1,57 @@
+.backdrop {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-holder{
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+.input-holder {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.input-holder input,
+.input-holder select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #666; 
+}
+.form-holder-title{
+    padding: 10px 0 20px 0;
+}
+
+.form-button-holder{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.form-button-holder button{
+    padding: 10px;
+    width: 90px;
+
+}
+.form-row{
+    display: flex;
+    gap: 10px;
+}
+textarea{
+    padding: 5px;
+    font-size: 16px;
+}

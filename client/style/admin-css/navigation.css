@@ -1,0 +1,21 @@
+.logo-holder{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+    height: fit-content;
+}
+.link-holder{
+}
+.link-holder a {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0 10px 20px;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
+.link-holder a:hover, 
+.link-holder a.selected{
+    background-color: rgb(105, 105, 248);
+}

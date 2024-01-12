@@ -1,0 +1,100 @@
+#groups {
+    width: 100%;
+    background-color: #00d8ab;
+    padding: 40px;
+}  
+.groups-card-holder{
+    overflow: auto;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    gap: 10px;
+    padding: 20px 0;
+}
+.groups-card{
+    min-width: 300px;
+} 
+.groups-title{
+    color: #0080bd; 
+    margin-bottom: 40px;
+}
+.groups-title h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.group-card-logo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.group-card-logo img:nth-child(1){
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+.card-group-image{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    
+}
+.hr .group-card-logo .card-group-image{
+    background-image: url("https://img.freepik.com/free-vector/interview-concept-illustration_114360-1501.jpg");
+}
+.itOps .group-card-logo .card-group-image{
+    background-image: url("https://img.freepik.com/free-vector/operating-system-concept-illustration_114360-2195.jpg");
+}
+.marketing .group-card-logo .card-group-image{
+    background-image: url("https://img.freepik.com/free-vector/marketing-concept-illustration_114360-3903.jpg");
+}
+.finance .group-card-logo .card-group-image{
+    background-image: url("https://img.freepik.com/free-vector/financial-data-concept-illustration_114360-2438.jpg");
+}
+.admin .group-card-logo .card-group-image{
+    background-image: url("https://img.freepik.com/free-vector/back-back-concept-illustration_114360-5999.jpg");
+}
+.amg .group-card-logo .card-group-image{
+    background-image: url("https://img.freepik.com/free-vector/mobile-login-concept-illustration_114360-83.jpg");
+}
+.cs .group-card-logo .card-group-image{
+    background-image: url("https://img.freepik.com/free-vector/active-support-concept-illustration_114360-587.jpg")
+}
+.sdg .group-card-logo .card-group-image{
+    background-image: url("https://img.freepik.com/free-vector/innovation-concept-illustration_114360-5768.jpg");
+}
+.bdg .group-card-logo .card-group-image{
+    background-image: url("https://img.freepik.com/free-vector/tech-company-concept-illustration_114360-9779.jpg");
+}
+.corp .group-card-logo .card-group-image{
+    background-image: url("https://img.freepik.com/free-vector/forming-team-leadership-concept-illustration_114360-13973.jpg");
+}
+
+.group-card-text{
+    text-align: center;
+    padding: 10px;
+}
+.group-card-button {
+    width: 100%;
+}
+.group-card-button a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    width: fit-content;
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.group-card-holder{
+    display: flex;
+    justify-content: center;
+}
+#carouseldepartment{
+    padding: 30px 0 70px 0;
+    width: 100%;
+    margin: auto;
+}

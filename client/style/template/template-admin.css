@@ -1,0 +1,27 @@
+nav{
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(51, 51, 51);
+}
+section {
+    width: calc(100% - 250px);
+    height: 100vh;
+    float: right;
+    padding: 20px;
+    overflow: auto;
+}
+.content-holder{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px black;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+}

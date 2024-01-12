@@ -1,0 +1,48 @@
+#formSection{
+    width: 100%;  
+    min-height: fit-content;
+    background-color: white;
+    padding: 100px 0 100px 0;
+}
+.form-holder{
+    margin: auto;
+    width: 90%;
+    padding: 10px 20px;
+}
+.form-title{
+    width: 100%;
+    text-align: center;
+}
+.form-button-holder{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-detail{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.form-detail h4{
+    padding: 0;
+    margin: 0;
+}
+.form-detail a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 40px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.form-button{
+    width: 98%;
+    margin: auto;
+    border: 2px solid black;
+    background-color: rgb(218, 254, 242);
+    border-radius: 15px;
+}
+.form-detail a{
+    background-color: white;
+}

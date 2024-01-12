@@ -1,0 +1,65 @@
+nav{
+    position: fixed;
+    top: 0px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.322);
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 99;
+
+}
+.link-holder{
+    display: flex;
+}
+.link-holder a{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    color: white;
+    text-decoration: none;
+}
+.link-holder a:hover{
+    background-color: rgba(255, 255, 255, 0.432);
+}
+.logo-holder{
+    background-image: url("https://webcast-inc.com.ph/wp-content/uploads/elementor/thumbs/Copy-of-WTI-New-Logo-2-white-1-q6c2olc6f6r26f1k4yk8vi20gho5t7aumujzw9nqps.png");
+    background-size: 100px;
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 60px;
+}
+.logo-holder a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.account-info{
+    width: 200px;
+    display: flex;
+    justify-content: right;
+}
+#profilePic{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid lime;
+}
+.btn.btn-secondary.dropdown-toggle{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+.dropdown-menu.show {
+    font-size: 12px;
+}
+.badge.badge-danger{
+    background-color: rgb(255, 94, 94);
+}

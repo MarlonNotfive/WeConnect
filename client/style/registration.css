@@ -1,0 +1,159 @@
+.holder{
+    display: flex;
+    overflow: hidden;
+}
+.wallpaper{
+    width: 50%;
+    height: 100vh;
+    background-image: radial-gradient(rgb(92, 89, 136), rgb(43, 63, 88), rgb(0, 0, 0));
+    background-image: url("https://media1.giphy.com/media/U4FkC2VqpeNRHjTDQ5/giphy.gif?cid=ecf05e47mz01w4gm91i06ivuyunm14mcqaxxm8d9i0lt2s86&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    backdrop-filter: blur(20px);
+    transition: background-size 1s ease-in-out;
+    
+}
+.wallpaper:hover{
+    background-size: 200% 200%;
+}
+.error-box {
+    display: none;
+    align-items: center;
+    width: 80%;
+    background-color: #f44336;
+    color: white;
+    padding: 10px; 
+    border-radius: 10px;
+    text-align: center; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    font-size: 12px;
+}
+.error-box i{
+    font-size: 20px;
+    
+}
+.error-box p {
+    width: 90%;
+    text-align: left;
+    padding: 5px 10px;
+    margin-bottom: 0;
+    word-wrap: break-word;
+}
+
+.login-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    gap: 20px;
+}
+.login-holder i#header-icon{
+    font-size: 5vh;
+}
+
+form{
+    width: 90%;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 30px 0 40px;
+    gap: 10px;
+}
+.input-holder,
+.input-holder-double{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 40px;
+    border-radius: 15px;
+}
+.input-holder.department{
+    height: 60px;
+    gap: 10px;
+}
+.input-holder.department .col{
+    width: 50%;
+}
+.input-holder.department label{
+    width: 100%;
+    text-align: left;
+    padding: 0 0 5px 5px;
+}
+.input-holder.profile {
+    display: flex;
+}
+.input-holder.profile input{
+    width: 70%;
+}
+
+.input-holder input,
+.input-holder-double input, 
+select{
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    height: 40px;
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+input[type="file"]{
+    padding-top: 8px;
+}
+
+.input-holder-double{
+    gap: 10px;
+}
+.button-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 30px;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.btn-register {
+    background-color: #3498db; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Add padding for spacing */
+    height: 40px;
+    width: 150px;
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 12px; /* Font size */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.btn-register:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+a {
+    text-decoration: none; /* Remove underline from the link */
+    color: #3498db; /* Blue link color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px; /* Font size for the link */
+    border: solid #3498db;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    padding: 10px 20px; /* Add padding for spacing */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline the link on hover */
+}

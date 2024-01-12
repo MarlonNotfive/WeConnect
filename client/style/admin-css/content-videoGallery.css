@@ -1,0 +1,90 @@
+.videoCard-holder{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.videoCard {
+    width: calc(50% - 10px);
+    aspect-ratio: 16/9;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+    overflow: hidden;
+}
+.videoCard-play{
+    height: 80%;
+}
+.videoCard-play iframe{
+    width: 100%;
+    border-radius: 15px;
+}
+.video-control{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 20%;
+}
+.video-control button{
+    padding: 10px;
+}
+
+.videoSelected{
+    border: 2px solid red;
+    box-shadow: 0 0 5px red;
+}
+select{
+    padding: 5px;
+}
+
+.folder-holder {
+    display: flex;
+    gap: 10px;
+}
+.folder-card{
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    transition: background-color,color 500ms ease-in-out;
+}
+.folder-card:hover{
+    background-color: rgb(80, 80, 80);
+    color: white;
+}
+
+.folder-card i {
+    font-size: 18px;
+}
+.backBTN{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    color: black;
+    text-decoration: none;
+    transition: scale 500ms ease-in-out;
+}
+.backBTN:hover{
+    scale: 1.1;
+}
+.group{
+    display: flex;
+    gap: 10px;
+}
+.folderNav{
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
